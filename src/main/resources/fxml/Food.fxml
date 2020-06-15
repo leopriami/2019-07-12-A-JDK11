@@ -54,7 +54,7 @@
                         <Insets right="20.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="btnCalorie" mnemonicParsing="false" onAction="#doCalorie" prefWidth="80.0" text="Calorie" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Button fx:id="btnGrassi" mnemonicParsing="false" onAction="#doGrassi" prefWidth="80.0" text="Grassi" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets right="20.0" />
                      </GridPane.margin>

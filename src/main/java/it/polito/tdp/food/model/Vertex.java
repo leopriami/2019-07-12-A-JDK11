@@ -1,10 +1,10 @@
 package it.polito.tdp.food.model;
 
-public class Food {
+public class Vertex {
 	private Integer food_code;
 	private String display_name;
 	
-	public Food(Integer food_code, String display_name) {
+	public Vertex(Integer food_code, String display_name) {
 		super();
 		this.food_code = food_code;
 		this.display_name = display_name;
@@ -39,7 +39,7 @@ public class Food {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Food other = (Food) obj;
+		Vertex other = (Vertex) obj;
 		if (food_code == null) {
 			if (other.food_code != null)
 				return false;
